@@ -1,0 +1,26 @@
+Rate of Force Development 
+-------------------------------------------------
+
+A project to determine the Rate of Force Development (RoFD) among individuals
+who had tested their physical strength against sensors.
+
+The goal of this project is to answer two questions:
+1) The time it takes to reach X% peak per repetition cycle
+2) Time to reach Y% peak for all cycles
+
+-------------------------------------------------
+
+For each data set, output of this program should be a table like such:
+
+Repetition #  |  Time to Peak  |  Force  | RoFD (dF/dT)
+1                100ms            2.4      ...
+2                300ms            4.5      ...
+
+For each data set, output of this program should also show (similar data):
+
+Repetition #  |  Time to %X Peak  |  Force by %X peak  |  RoFD (dF/dT over %X)
+...              ...                 ...                  ...
+
+-------------------------------------------------
+
+ 
