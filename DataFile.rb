@@ -2,7 +2,14 @@
 module DataFile
   # Configuration Hash sample.  The programmer will need to provide 
   # meta-data for DataFileOfPoints objects.  
-  DEMO_COLUMN_CONFIG_HASHES = {:ONLY_ONE_SO_FAR => {:TIME => 0, :TORQUE => 1, :POSITION => 2, :OTHERPOS => 3, :VELOCITY_DEGpSEC => 4}, }
+  DEMO_COLUMN_CONFIG_HASHES = 
+    {:ONLY_ONE_SO_FAR => 
+      {:TIME => 0, 
+       :TORQUE => 1, 
+       :POSITION => 2, 
+       :OTHERPOS => 3, 
+       :VELOCITY_DEGpSEC => 4},
+    }
 
   class DataPointFromFile
     def initialize(text_file_line, column_config_hash)
