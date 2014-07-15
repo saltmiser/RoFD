@@ -1,15 +1,17 @@
 #!/usr/bin/ruby
 
-# Adjust Ruby's classpath so that it can find our written modules
-$LOAD_PATH << '.'
-
 # Load our written modules
-require 'DataFile.rb'
+require 'CycleDetection.rb'
+include CycleDetection
+include DataFile
 
-# Invoke our module tests
-puts 'Invoking DataFile.tester...'
-DataFile.tester
+def main()
+  datadir = './data/'
+  justOneFile = 'LHIP 240.txt'
+  config = DEMO_COLUMN_CONFIG_HASHES[:ONLY_ONE_SO_FAR]
+  $data = DataFileOfPoints.new(datadir, justOneFile, config)
+  $cycletron = CycleList.new(datadir, justOneFile, config, :TORQUE)
+  
+end
 
-# Good-bye!
-puts 'Script complete!'
 

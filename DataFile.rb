@@ -11,27 +11,46 @@ module DataFile
        :VELOCITY_DEGpSEC => 4},
     }
 
+  # A DataPointFromFile is simply a record.  A record initially remembers 
+  # the raw data with which it was instantiated, and it also remembers 
+  # a column_config_hash, which will identify units or labels for each entry
+  # in a record.  
+  #
+  # Moving on, a powerful method named get_hash_of_record blends the two
+  # instantiated datums together in order to provide one hash which maps 
+  # units to values.
   class DataPointFromFile
     def initialize(text_file_line, column_config_hash)
       @data_array = text_file_line.split
       @column_config = column_config_hash
     end
-    def get_columns
-      @data_array
+    def get_hash_of_record
+      returned_map = @column_config.clone()
+      returned_map.each_key { |k| 
+        returned_map[k] = @data_array[returned_map[k]]
+      }
+      return returned_map
     end
     def to_s
-      "Data Point with " + get_columns.count.to_s + " columns"
+      return "Data Point with " + get_columns.count.to_s + " columns"
     end
-    def get(whichColumn)
-      @data_array[whichColumn]
+    def [](column_hash_name)
+      return @data_array[@column_config[column_hash_name]]
+    end
+    def get_column_config()
+      return @column_config
     end
   end
 
+  # A DataFileOfPoints is an Array of DataPointFromFile objects.  
+  # Upon object instantiation, the referenced data file is parsed and
+  # the DataPointFromFile objects are instantiated.   
   class DataFileOfPoints
     def initialize(directory, file_name, column_config_hash)
       @file_path = directory + file_name
       @data_points = []
       @column_config = column_config_hash
+      self.read_file()
     end
     def read_file()
       File.open(@file_path) do |infile|
@@ -46,11 +65,23 @@ module DataFile
       end
     end
     def count()
-      @data_points.count()
+      return @data_points.count()
     end
     def to_s()
-      "Data File with " + self.count.to_s + " records."
+      return "Data File with " + self.count.to_s + " records."
     end 
+    def [](array_index)
+      return @data_points[array_index]
+    end
+    # These next two functions will cause the DataFileOfPoints class to 
+    # behave like an Array -- we will be able to append and iterate over
+    # the object using standard Ruby iteration techniques.  
+    def <<(value)
+      @data_points << value
+    end
+    def each(&block)
+      @data_points.each(&block)
+    end
   end
 
   def DataFile.tester
