@@ -52,9 +52,17 @@ module CycleDetection
     def get_slope(band_designator)
       case band_designator
       when :LEFT
-        return @left_band.get_slope()
+        if @left_band != nil
+          return @left_band.get_slope()
+        else
+          return nil
+        end
       when :RIGHT
-        return @right_band.get_slope()
+        if @right_band != nil
+          return @right_band.get_slope()
+        else
+          return nil
+        end
       else
         puts "Invalid band_Designator #{band_designator}"
       end
@@ -64,6 +72,7 @@ module CycleDetection
     def initialize(directory, file_name, column_config, inspect_column)
       @data_points = DataFileOfPoints.new(directory, file_name, column_config)
       self.initialize_cycle_list(inspect_column)
+      self.find_average_slopes()
     end
     def initialize_band_list(for_column)
       band_list = []
@@ -100,6 +109,41 @@ module CycleDetection
             @cycle_list << Cycle.new()
           end
       }
+    end
+    def find_average_slopes()
+      @average_slopes = {:LEFT => 0.0, :RIGHT => 0.0}
+      skip_bands = 0
+      @cycle_list.each { |cycle|
+        if cycle.get_slope(:LEFT) != nil && cycle.get_slope(:RIGHT) != nil
+          @average_slopes[:LEFT] += cycle.get_slope(:LEFT)
+          @average_slopes[:RIGHT] += cycle.get_slope(:RIGHT)
+        else
+          skip_bands += 1
+        end
+      }
+      @cycle_list.first.get_band_designators.each { |band|
+        @average_slopes[band] /= (@cycle_list.count - skip_bands)
+      }
+    end
+    def [](cycle_index)
+      return @cycle_list[cycle_index]
+    end
+    def get_average_slope(band_designator)
+      return @average_slopes[band_designator]
+    end
+    def count()
+      return @cycle_list.count
+    end
+    def puts_slope_list()
+      cycle_no = 0
+      @cycle_list.each { |cycle|
+        if cycle.get_slope(:LEFT) != nil && cycle.get_slope(:RIGHT) != nil
+          cycle_no += 1
+          puts "Cycle #{cycle_no} :LEFT band slope: #{cycle.get_slope(:LEFT)}"
+          puts "Cycle #{cycle_no} :RIGHT band slope: #{cycle.get_slope(:RIGHT)}"
+        end
+      }
+      return cycle_no
     end
   end
 end
