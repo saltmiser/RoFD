@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 # Load our written modules
-require 'CycleDetection.rb'
+require_relative 'CycleDetection'
 include CycleDetection
 include DataFile
 

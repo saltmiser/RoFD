@@ -10,6 +10,7 @@ module DataFile
        :OTHERPOS => 3, 
        :VELOCITY_DEGpSEC => 4},
     }
+  COLUMN_NOUN = "channels"
 
   # A DataPointFromFile is simply a record.  A record initially remembers 
   # the raw data with which it was instantiated, and it also remembers 
@@ -31,11 +32,22 @@ module DataFile
       }
       return returned_map
     end
-    def to_s
-      return "Data Point with " + get_columns.count.to_s + " columns"
+    def get_value(column_hash_name)
+      return @data_array[@column_config[column_hash_name]]
+    end
+    def to_s(*args)
+      str_build = "Data Point Values: "
+      str_len_before = str_build.length
+      args.each { |arg|
+        str_build += "\n\tKey #{arg}, Value #{self.get_value(arg)}"
+      }
+      if str_len_before == str_build.length
+        return "Data Point has #{@data_array.count} #{COLUMN_NOUN}" 
+      end
+      return str_build
     end
     def [](column_hash_name)
-      return @data_array[@column_config[column_hash_name]]
+      return get_value(column_hash_name)
     end
     def get_column_config()
       return @column_config
@@ -56,8 +68,8 @@ module DataFile
       File.open(@file_path) do |infile|
         skiplines = 0
         while line = infile.gets
-          if skiplines < 7
-            skiplines = skiplines + 1
+          if skiplines < 6
+            skiplines += 1
           else 
             @data_points << DataPointFromFile.new(line, @column_config)
           end

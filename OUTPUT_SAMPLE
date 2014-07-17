@@ -1,66 +1,1193 @@
-Cycle 1 :LEFT band slope: 0.0
-Cycle 1 :RIGHT band slope: 0.4
-Cycle 2 :LEFT band slope: -0.8
-Cycle 2 :RIGHT band slope: -3.8
-Cycle 3 :LEFT band slope: -2.1
-Cycle 3 :RIGHT band slope: 2.9
-Cycle 4 :LEFT band slope: -2.1
-Cycle 4 :RIGHT band slope: -4.2
-Cycle 5 :LEFT band slope: -0.8
-Cycle 5 :RIGHT band slope: 5.2
-Cycle 6 :LEFT band slope: -1.9
-Cycle 6 :RIGHT band slope: -6.5
-Cycle 7 :LEFT band slope: -2.1
-Cycle 7 :RIGHT band slope: 2.9
-Cycle 8 :LEFT band slope: -0.8
-Cycle 8 :RIGHT band slope: -10.4
-Cycle 9 :LEFT band slope: -54.8
-Cycle 9 :RIGHT band slope: -48.9
-Cycle 10 :LEFT band slope: -0.8
-Cycle 10 :RIGHT band slope: 3.1
-Cycle 11 :LEFT band slope: -0.199999999999999
-Cycle 11 :RIGHT band slope: -4.7
-Cycle 12 :LEFT band slope: -0.199999999999999
-Cycle 12 :RIGHT band slope: 3.1
-Cycle 13 :LEFT band slope: -0.199999999999999
-Cycle 13 :RIGHT band slope: 1.8
-Cycle 14 :LEFT band slope: -1.2
-Cycle 14 :RIGHT band slope: -11.3
-Cycle 15 :LEFT band slope: -54.2
-Cycle 15 :RIGHT band slope: -46.2
-Cycle 16 :LEFT band slope: -3.0
-Cycle 16 :RIGHT band slope: 1.0
-Cycle 17 :LEFT band slope: -2.1
-Cycle 17 :RIGHT band slope: -15.1
-Cycle 18 :LEFT band slope: -53.6
-Cycle 18 :RIGHT band slope: -51.0
-Cycle 19 :LEFT band slope: -0.6
-Cycle 19 :RIGHT band slope: 3.6
-Cycle 20 :LEFT band slope: -55.0
-Cycle 20 :RIGHT band slope: -45.7
-Cycle 21 :LEFT band slope: -54.0
-Cycle 21 :RIGHT band slope: -51.9
-Cycle 22 :LEFT band slope: -2.6
-Cycle 22 :RIGHT band slope: 1.3
-Cycle 23 :LEFT band slope: -0.199999999999999
-Cycle 23 :RIGHT band slope: 4.6
-Cycle 24 :LEFT band slope: -1.9
-Cycle 24 :RIGHT band slope: -6.8
-Cycle 25 :LEFT band slope: -0.8
-Cycle 25 :RIGHT band slope: 2.3
-Cycle 26 :LEFT band slope: -2.1
-Cycle 26 :RIGHT band slope: -7.8
-Cycle 27 :LEFT band slope: -56.3
-Cycle 27 :RIGHT band slope: -43.6
-Cycle 28 :LEFT band slope: -0.6
-Cycle 28 :RIGHT band slope: 1.5
-Cycle 29 :LEFT band slope: -1.9
-Cycle 29 :RIGHT band slope: 0.800000000000001
-Cycle 30 :LEFT band slope: -55.1
-Cycle 30 :RIGHT band slope: -46.9
-Cycle 31 :LEFT band slope: -58.3
-Cycle 31 :RIGHT band slope: -44.8
-Cycle 32 :LEFT band slope: -1.1
-Cycle 32 :RIGHT band slope: 1.8
-Cycle 33 :LEFT band slope: -0.8
-Cycle 33 :RIGHT band slope: 3.6
+We are seeing the first point: 0
+Our initial slope is: true
+Data Point Values: 
+	Key TIME, Value 0
+	Key TORQUE, Value 0.0
+Slope is now false starting with point: 2
+Data Point Values: 
+	Key TIME, Value 20
+	Key TORQUE, Value 6.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10
+	Key TORQUE, Value 6.9
+Slope is now true starting with point: 24
+Data Point Values: 
+	Key TIME, Value 240
+	Key TORQUE, Value -0.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 230
+	Key TORQUE, Value -1.5
+Slope is now false starting with point: 25
+Data Point Values: 
+	Key TIME, Value 250
+	Key TORQUE, Value -1.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 240
+	Key TORQUE, Value -0.5
+Slope is now true starting with point: 46
+Data Point Values: 
+	Key TIME, Value 460
+	Key TORQUE, Value -5.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 450
+	Key TORQUE, Value -6.2
+Slope is now false starting with point: 53
+Data Point Values: 
+	Key TIME, Value 530
+	Key TORQUE, Value -5.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 520
+	Key TORQUE, Value -4.6
+Slope is now true starting with point: 55
+Data Point Values: 
+	Key TIME, Value 550
+	Key TORQUE, Value -4.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 540
+	Key TORQUE, Value -5.2
+Slope is now false starting with point: 61
+Data Point Values: 
+	Key TIME, Value 610
+	Key TORQUE, Value -4.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 600
+	Key TORQUE, Value -3.6
+Slope is now true starting with point: 64
+Data Point Values: 
+	Key TIME, Value 640
+	Key TORQUE, Value -5.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 630
+	Key TORQUE, Value -5.9
+Slope is now false starting with point: 85
+Data Point Values: 
+	Key TIME, Value 850
+	Key TORQUE, Value 17.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 840
+	Key TORQUE, Value 18.4
+Slope is now true starting with point: 92
+Data Point Values: 
+	Key TIME, Value 920
+	Key TORQUE, Value 14.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 910
+	Key TORQUE, Value 13.9
+Slope is now false starting with point: 104
+Data Point Values: 
+	Key TIME, Value 1040
+	Key TORQUE, Value 30.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1030
+	Key TORQUE, Value 32.9
+Slope is now true starting with point: 111
+Data Point Values: 
+	Key TIME, Value 1110
+	Key TORQUE, Value 4.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1100
+	Key TORQUE, Value 2.8
+Slope is now false starting with point: 116
+Data Point Values: 
+	Key TIME, Value 1160
+	Key TORQUE, Value 7.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1150
+	Key TORQUE, Value 11.1
+Slope is now true starting with point: 124
+Data Point Values: 
+	Key TIME, Value 1240
+	Key TORQUE, Value -21.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1230
+	Key TORQUE, Value -22.8
+Slope is now false starting with point: 136
+Data Point Values: 
+	Key TIME, Value 1360
+	Key TORQUE, Value -8.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1350
+	Key TORQUE, Value -6.7
+Slope is now true starting with point: 145
+Data Point Values: 
+	Key TIME, Value 1450
+	Key TORQUE, Value -15.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1440
+	Key TORQUE, Value -15.6
+Slope is now false starting with point: 146
+Data Point Values: 
+	Key TIME, Value 1460
+	Key TORQUE, Value -15.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1450
+	Key TORQUE, Value -15.0
+Slope is now true starting with point: 148
+Data Point Values: 
+	Key TIME, Value 1480
+	Key TORQUE, Value -14.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1470
+	Key TORQUE, Value -15.7
+Slope is now false starting with point: 165
+Data Point Values: 
+	Key TIME, Value 1650
+	Key TORQUE, Value 51.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1640
+	Key TORQUE, Value 56.9
+Slope is now true starting with point: 170
+Data Point Values: 
+	Key TIME, Value 1700
+	Key TORQUE, Value 25.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1690
+	Key TORQUE, Value 24.7
+Slope is now false starting with point: 177
+Data Point Values: 
+	Key TIME, Value 1770
+	Key TORQUE, Value 44.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1760
+	Key TORQUE, Value 48.6
+Slope is now true starting with point: 190
+Data Point Values: 
+	Key TIME, Value 1900
+	Key TORQUE, Value -11.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1890
+	Key TORQUE, Value -12.9
+Slope is now false starting with point: 192
+Data Point Values: 
+	Key TIME, Value 1920
+	Key TORQUE, Value -13.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1910
+	Key TORQUE, Value -10.3
+Slope is now true starting with point: 200
+Data Point Values: 
+	Key TIME, Value 2000
+	Key TORQUE, Value -31.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 1990
+	Key TORQUE, Value -32.4
+Slope is now false starting with point: 208
+Data Point Values: 
+	Key TIME, Value 2080
+	Key TORQUE, Value -17.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2070
+	Key TORQUE, Value -17.1
+Slope is now true starting with point: 215
+Data Point Values: 
+	Key TIME, Value 2150
+	Key TORQUE, Value -24.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2140
+	Key TORQUE, Value -24.3
+Slope is now false starting with point: 230
+Data Point Values: 
+	Key TIME, Value 2300
+	Key TORQUE, Value 47.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2290
+	Key TORQUE, Value 52.8
+Slope is now true starting with point: 232
+Data Point Values: 
+	Key TIME, Value 2320
+	Key TORQUE, Value 48.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2310
+	Key TORQUE, Value 46.6
+Slope is now false starting with point: 233
+Data Point Values: 
+	Key TIME, Value 2330
+	Key TORQUE, Value 46.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2320
+	Key TORQUE, Value 48.6
+Slope is now true starting with point: 238
+Data Point Values: 
+	Key TIME, Value 2380
+	Key TORQUE, Value 32.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2370
+	Key TORQUE, Value 32.0
+Slope is now false starting with point: 243
+Data Point Values: 
+	Key TIME, Value 2430
+	Key TORQUE, Value 46.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2420
+	Key TORQUE, Value 48.4
+Slope is now true starting with point: 268
+Data Point Values: 
+	Key TIME, Value 2680
+	Key TORQUE, Value -29.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2670
+	Key TORQUE, Value -31.6
+Slope is now false starting with point: 276
+Data Point Values: 
+	Key TIME, Value 2760
+	Key TORQUE, Value -19.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2750
+	Key TORQUE, Value -19.2
+Slope is now true starting with point: 283
+Data Point Values: 
+	Key TIME, Value 2830
+	Key TORQUE, Value -30.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2820
+	Key TORQUE, Value -30.6
+Slope is now false starting with point: 298
+Data Point Values: 
+	Key TIME, Value 2980
+	Key TORQUE, Value 55.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 2970
+	Key TORQUE, Value 61.7
+Slope is now true starting with point: 306
+Data Point Values: 
+	Key TIME, Value 3060
+	Key TORQUE, Value 33.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3050
+	Key TORQUE, Value 27.8
+Slope is now false starting with point: 310
+Data Point Values: 
+	Key TIME, Value 3100
+	Key TORQUE, Value 52.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3090
+	Key TORQUE, Value 52.6
+Slope is now true starting with point: 323
+Data Point Values: 
+	Key TIME, Value 3230
+	Key TORQUE, Value -3.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3220
+	Key TORQUE, Value -4.6
+Slope is now false starting with point: 324
+Data Point Values: 
+	Key TIME, Value 3240
+	Key TORQUE, Value -4.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3230
+	Key TORQUE, Value -3.3
+Slope is now true starting with point: 334
+Data Point Values: 
+	Key TIME, Value 3340
+	Key TORQUE, Value -35.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3330
+	Key TORQUE, Value -36.8
+Slope is now false starting with point: 336
+Data Point Values: 
+	Key TIME, Value 3360
+	Key TORQUE, Value -35.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3350
+	Key TORQUE, Value -35.0
+Slope is now true starting with point: 337
+Data Point Values: 
+	Key TIME, Value 3370
+	Key TORQUE, Value -32.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3360
+	Key TORQUE, Value -35.2
+Slope is now false starting with point: 342
+Data Point Values: 
+	Key TIME, Value 3420
+	Key TORQUE, Value -20.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3410
+	Key TORQUE, Value -18.6
+Slope is now true starting with point: 344
+Data Point Values: 
+	Key TIME, Value 3440
+	Key TORQUE, Value -22.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3430
+	Key TORQUE, Value -22.3
+Slope is now false starting with point: 345
+Data Point Values: 
+	Key TIME, Value 3450
+	Key TORQUE, Value -24.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3440
+	Key TORQUE, Value -22.0
+Slope is now true starting with point: 350
+Data Point Values: 
+	Key TIME, Value 3500
+	Key TORQUE, Value -27.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3490
+	Key TORQUE, Value -28.5
+Slope is now false starting with point: 363
+Data Point Values: 
+	Key TIME, Value 3630
+	Key TORQUE, Value 50.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3620
+	Key TORQUE, Value 58.8
+Slope is now true starting with point: 371
+Data Point Values: 
+	Key TIME, Value 3710
+	Key TORQUE, Value 31.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3700
+	Key TORQUE, Value 29.4
+Slope is now false starting with point: 376
+Data Point Values: 
+	Key TIME, Value 3760
+	Key TORQUE, Value 51.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3750
+	Key TORQUE, Value 54.7
+Slope is now true starting with point: 389
+Data Point Values: 
+	Key TIME, Value 3890
+	Key TORQUE, Value 7.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3880
+	Key TORQUE, Value 3.8
+Slope is now false starting with point: 390
+Data Point Values: 
+	Key TIME, Value 3900
+	Key TORQUE, Value 5.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 3890
+	Key TORQUE, Value 7.1
+Slope is now true starting with point: 404
+Data Point Values: 
+	Key TIME, Value 4040
+	Key TORQUE, Value -29.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4030
+	Key TORQUE, Value -36.5
+Slope is now false starting with point: 410
+Data Point Values: 
+	Key TIME, Value 4100
+	Key TORQUE, Value -15.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4090
+	Key TORQUE, Value -13.7
+Slope is now true starting with point: 418
+Data Point Values: 
+	Key TIME, Value 4180
+	Key TORQUE, Value -29.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4170
+	Key TORQUE, Value -30.3
+Slope is now false starting with point: 431
+Data Point Values: 
+	Key TIME, Value 4310
+	Key TORQUE, Value 53.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4300
+	Key TORQUE, Value 61.1
+Slope is now true starting with point: 439
+Data Point Values: 
+	Key TIME, Value 4390
+	Key TORQUE, Value 35.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4380
+	Key TORQUE, Value 31.8
+Slope is now false starting with point: 443
+Data Point Values: 
+	Key TIME, Value 4430
+	Key TORQUE, Value 50.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4420
+	Key TORQUE, Value 51.8
+Slope is now true starting with point: 456
+Data Point Values: 
+	Key TIME, Value 4560
+	Key TORQUE, Value -3.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4550
+	Key TORQUE, Value -5.7
+Slope is now false starting with point: 458
+Data Point Values: 
+	Key TIME, Value 4580
+	Key TORQUE, Value -5.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4570
+	Key TORQUE, Value -3.3
+Slope is now true starting with point: 471
+Data Point Values: 
+	Key TIME, Value 4710
+	Key TORQUE, Value -36.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4700
+	Key TORQUE, Value -42.0
+Slope is now false starting with point: 477
+Data Point Values: 
+	Key TIME, Value 4770
+	Key TORQUE, Value -23.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4760
+	Key TORQUE, Value -22.8
+Slope is now true starting with point: 483
+Data Point Values: 
+	Key TIME, Value 4830
+	Key TORQUE, Value -31.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4820
+	Key TORQUE, Value -32.3
+Slope is now false starting with point: 497
+Data Point Values: 
+	Key TIME, Value 4970
+	Key TORQUE, Value 52.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 4960
+	Key TORQUE, Value 54.9
+Slope is now true starting with point: 504
+Data Point Values: 
+	Key TIME, Value 5040
+	Key TORQUE, Value 31.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5030
+	Key TORQUE, Value 30.8
+Slope is now false starting with point: 510
+Data Point Values: 
+	Key TIME, Value 5100
+	Key TORQUE, Value 49.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5090
+	Key TORQUE, Value 51.4
+Slope is now true starting with point: 523
+Data Point Values: 
+	Key TIME, Value 5230
+	Key TORQUE, Value -0.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5220
+	Key TORQUE, Value -3.6
+Slope is now false starting with point: 525
+Data Point Values: 
+	Key TIME, Value 5250
+	Key TORQUE, Value -3.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5240
+	Key TORQUE, Value 0.0
+Slope is now true starting with point: 535
+Data Point Values: 
+	Key TIME, Value 5350
+	Key TORQUE, Value -44.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5340
+	Key TORQUE, Value -46.1
+Slope is now false starting with point: 543
+Data Point Values: 
+	Key TIME, Value 5430
+	Key TORQUE, Value -23.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5420
+	Key TORQUE, Value -21.8
+Slope is now true starting with point: 548
+Data Point Values: 
+	Key TIME, Value 5480
+	Key TORQUE, Value -31.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5470
+	Key TORQUE, Value -31.6
+Slope is now false starting with point: 564
+Data Point Values: 
+	Key TIME, Value 5640
+	Key TORQUE, Value 57.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5630
+	Key TORQUE, Value 60.5
+Slope is now true starting with point: 571
+Data Point Values: 
+	Key TIME, Value 5710
+	Key TORQUE, Value 30.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5700
+	Key TORQUE, Value 26.1
+Slope is now false starting with point: 576
+Data Point Values: 
+	Key TIME, Value 5760
+	Key TORQUE, Value 56.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5750
+	Key TORQUE, Value 58.8
+Slope is now true starting with point: 600
+Data Point Values: 
+	Key TIME, Value 6000
+	Key TORQUE, Value -42.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 5990
+	Key TORQUE, Value -45.1
+Slope is now false starting with point: 608
+Data Point Values: 
+	Key TIME, Value 6080
+	Key TORQUE, Value -31.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6070
+	Key TORQUE, Value -28.2
+Slope is now true starting with point: 614
+Data Point Values: 
+	Key TIME, Value 6140
+	Key TORQUE, Value -41.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6130
+	Key TORQUE, Value -43.5
+Slope is now false starting with point: 631
+Data Point Values: 
+	Key TIME, Value 6310
+	Key TORQUE, Value 52.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6300
+	Key TORQUE, Value 61.9
+Slope is now true starting with point: 636
+Data Point Values: 
+	Key TIME, Value 6360
+	Key TORQUE, Value 26.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6350
+	Key TORQUE, Value 25.9
+Slope is now false starting with point: 642
+Data Point Values: 
+	Key TIME, Value 6420
+	Key TORQUE, Value 58.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6410
+	Key TORQUE, Value 60.9
+Slope is now true starting with point: 654
+Data Point Values: 
+	Key TIME, Value 6540
+	Key TORQUE, Value 6.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6530
+	Key TORQUE, Value 5.6
+Slope is now false starting with point: 656
+Data Point Values: 
+	Key TIME, Value 6560
+	Key TORQUE, Value 2.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6550
+	Key TORQUE, Value 7.1
+Slope is now true starting with point: 667
+Data Point Values: 
+	Key TIME, Value 6670
+	Key TORQUE, Value -47.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6660
+	Key TORQUE, Value -49.0
+Slope is now false starting with point: 674
+Data Point Values: 
+	Key TIME, Value 6740
+	Key TORQUE, Value -26.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6730
+	Key TORQUE, Value -25.4
+Slope is now true starting with point: 680
+Data Point Values: 
+	Key TIME, Value 6800
+	Key TORQUE, Value -33.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6790
+	Key TORQUE, Value -34.7
+Slope is now false starting with point: 695
+Data Point Values: 
+	Key TIME, Value 6950
+	Key TORQUE, Value 55.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 6940
+	Key TORQUE, Value 56.0
+Slope is now true starting with point: 702
+Data Point Values: 
+	Key TIME, Value 7020
+	Key TORQUE, Value 28.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7010
+	Key TORQUE, Value 27.9
+Slope is now false starting with point: 708
+Data Point Values: 
+	Key TIME, Value 7080
+	Key TORQUE, Value 52.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7070
+	Key TORQUE, Value 55.9
+Slope is now true starting with point: 720
+Data Point Values: 
+	Key TIME, Value 7200
+	Key TORQUE, Value 3.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7190
+	Key TORQUE, Value 2.8
+Slope is now false starting with point: 721
+Data Point Values: 
+	Key TIME, Value 7210
+	Key TORQUE, Value 2.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7200
+	Key TORQUE, Value 3.6
+Slope is now true starting with point: 732
+Data Point Values: 
+	Key TIME, Value 7320
+	Key TORQUE, Value -40.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7310
+	Key TORQUE, Value -40.9
+Slope is now false starting with point: 739
+Data Point Values: 
+	Key TIME, Value 7390
+	Key TORQUE, Value -21.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7380
+	Key TORQUE, Value -21.8
+Slope is now true starting with point: 747
+Data Point Values: 
+	Key TIME, Value 7470
+	Key TORQUE, Value -36.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7460
+	Key TORQUE, Value -38.8
+Slope is now false starting with point: 762
+Data Point Values: 
+	Key TIME, Value 7620
+	Key TORQUE, Value 54.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7610
+	Key TORQUE, Value 56.9
+Slope is now true starting with point: 769
+Data Point Values: 
+	Key TIME, Value 7690
+	Key TORQUE, Value 30.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7680
+	Key TORQUE, Value 28.7
+Slope is now false starting with point: 774
+Data Point Values: 
+	Key TIME, Value 7740
+	Key TORQUE, Value 55.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7730
+	Key TORQUE, Value 56.4
+Slope is now true starting with point: 787
+Data Point Values: 
+	Key TIME, Value 7870
+	Key TORQUE, Value 6.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7860
+	Key TORQUE, Value 3.6
+Slope is now false starting with point: 788
+Data Point Values: 
+	Key TIME, Value 7880
+	Key TORQUE, Value 3.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 7870
+	Key TORQUE, Value 6.5
+Slope is now true starting with point: 801
+Data Point Values: 
+	Key TIME, Value 8010
+	Key TORQUE, Value -40.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8000
+	Key TORQUE, Value -45.1
+Slope is now false starting with point: 807
+Data Point Values: 
+	Key TIME, Value 8070
+	Key TORQUE, Value -22.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8060
+	Key TORQUE, Value -21.2
+Slope is now true starting with point: 814
+Data Point Values: 
+	Key TIME, Value 8140
+	Key TORQUE, Value -34.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8130
+	Key TORQUE, Value -35.2
+Slope is now false starting with point: 822
+Data Point Values: 
+	Key TIME, Value 8220
+	Key TORQUE, Value -5.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8210
+	Key TORQUE, Value -4.6
+Slope is now true starting with point: 823
+Data Point Values: 
+	Key TIME, Value 8230
+	Key TORQUE, Value -4.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8220
+	Key TORQUE, Value -5.4
+Slope is now false starting with point: 831
+Data Point Values: 
+	Key TIME, Value 8310
+	Key TORQUE, Value 60.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8300
+	Key TORQUE, Value 63.2
+Slope is now true starting with point: 837
+Data Point Values: 
+	Key TIME, Value 8370
+	Key TORQUE, Value 22.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8360
+	Key TORQUE, Value 20.4
+Slope is now false starting with point: 843
+Data Point Values: 
+	Key TIME, Value 8430
+	Key TORQUE, Value 57.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8420
+	Key TORQUE, Value 59.3
+Slope is now true starting with point: 855
+Data Point Values: 
+	Key TIME, Value 8550
+	Key TORQUE, Value 0.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8540
+	Key TORQUE, Value -4.4
+Slope is now false starting with point: 856
+Data Point Values: 
+	Key TIME, Value 8560
+	Key TORQUE, Value -1.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8550
+	Key TORQUE, Value 0.0
+Slope is now true starting with point: 868
+Data Point Values: 
+	Key TIME, Value 8680
+	Key TORQUE, Value -41.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8670
+	Key TORQUE, Value -46.1
+Slope is now false starting with point: 874
+Data Point Values: 
+	Key TIME, Value 8740
+	Key TORQUE, Value -24.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8730
+	Key TORQUE, Value -24.1
+Slope is now true starting with point: 880
+Data Point Values: 
+	Key TIME, Value 8800
+	Key TORQUE, Value -35.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8790
+	Key TORQUE, Value -35.8
+Slope is now false starting with point: 897
+Data Point Values: 
+	Key TIME, Value 8970
+	Key TORQUE, Value 57.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 8960
+	Key TORQUE, Value 58.0
+Slope is now true starting with point: 903
+Data Point Values: 
+	Key TIME, Value 9030
+	Key TORQUE, Value 23.5
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9020
+	Key TORQUE, Value 20.6
+Slope is now false starting with point: 909
+Data Point Values: 
+	Key TIME, Value 9090
+	Key TORQUE, Value 55.2
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9080
+	Key TORQUE, Value 56.9
+Slope is now true starting with point: 922
+Data Point Values: 
+	Key TIME, Value 9220
+	Key TORQUE, Value -2.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9210
+	Key TORQUE, Value -3.6
+Slope is now false starting with point: 923
+Data Point Values: 
+	Key TIME, Value 9230
+	Key TORQUE, Value -4.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9220
+	Key TORQUE, Value -2.0
+Slope is now true starting with point: 933
+Data Point Values: 
+	Key TIME, Value 9330
+	Key TORQUE, Value -40.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9320
+	Key TORQUE, Value -42.0
+Slope is now false starting with point: 934
+Data Point Values: 
+	Key TIME, Value 9340
+	Key TORQUE, Value -41.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9330
+	Key TORQUE, Value -40.9
+Slope is now true starting with point: 935
+Data Point Values: 
+	Key TIME, Value 9350
+	Key TORQUE, Value -38.9
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9340
+	Key TORQUE, Value -41.7
+Slope is now false starting with point: 941
+Data Point Values: 
+	Key TIME, Value 9410
+	Key TORQUE, Value -26.4
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9400
+	Key TORQUE, Value -24.9
+Slope is now true starting with point: 948
+Data Point Values: 
+	Key TIME, Value 9480
+	Key TORQUE, Value -40.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9470
+	Key TORQUE, Value -43.0
+Slope is now false starting with point: 966
+Data Point Values: 
+	Key TIME, Value 9660
+	Key TORQUE, Value 53.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9650
+	Key TORQUE, Value 65.6
+Slope is now true starting with point: 971
+Data Point Values: 
+	Key TIME, Value 9710
+	Key TORQUE, Value 26.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9700
+	Key TORQUE, Value 20.4
+Slope is now false starting with point: 977
+Data Point Values: 
+	Key TIME, Value 9770
+	Key TORQUE, Value 62.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9760
+	Key TORQUE, Value 67.1
+Slope is now true starting with point: 989
+Data Point Values: 
+	Key TIME, Value 9890
+	Key TORQUE, Value 7.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9880
+	Key TORQUE, Value 5.1
+Slope is now false starting with point: 990
+Data Point Values: 
+	Key TIME, Value 9900
+	Key TORQUE, Value 3.3
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9890
+	Key TORQUE, Value 7.7
+Slope is now true starting with point: 1000
+Data Point Values: 
+	Key TIME, Value 10000
+	Key TORQUE, Value -44.1
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 9990
+	Key TORQUE, Value -45.1
+Slope is now false starting with point: 1002
+Data Point Values: 
+	Key TIME, Value 10020
+	Key TORQUE, Value -41.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10010
+	Key TORQUE, Value -40.7
+Slope is now true starting with point: 1003
+Data Point Values: 
+	Key TIME, Value 10030
+	Key TORQUE, Value -36.8
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10020
+	Key TORQUE, Value -41.0
+Slope is now false starting with point: 1008
+Data Point Values: 
+	Key TIME, Value 10080
+	Key TORQUE, Value -29.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10070
+	Key TORQUE, Value -26.7
+Slope is now true starting with point: 1014
+Data Point Values: 
+	Key TIME, Value 10140
+	Key TORQUE, Value -42.7
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10130
+	Key TORQUE, Value -43.0
+Slope is now false starting with point: 1023
+Data Point Values: 
+	Key TIME, Value 10230
+	Key TORQUE, Value -4.6
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10220
+	Key TORQUE, Value -4.4
+Slope is now true starting with point: 1025
+Data Point Values: 
+	Key TIME, Value 10250
+	Key TORQUE, Value -1.0
+Last point was: 
+Data Point Values: 
+	Key TIME, Value 10240
+	Key TORQUE, Value -5.5
+Cycle 1 :LEFT band slope: 6.9
+Cycle 1 :RIGHT band slope: -8.0
+Cycle 2 :LEFT band slope: 0.0
+Cycle 2 :RIGHT band slope: -5.2
+Cycle 3 :LEFT band slope: 1.3000000000000007
+Cycle 3 :RIGHT band slope: 0.0
+Cycle 4 :LEFT band slope: 0.9999999999999996
+Cycle 4 :RIGHT band slope: -1.3000000000000007
+Cycle 5 :LEFT band slope: 24.099999999999998
+Cycle 5 :RIGHT band slope: -3.700000000000001
+Cycle 6 :LEFT band slope: 18.7
+Cycle 6 :RIGHT band slope: -27.5
+Cycle 7 :LEFT band slope: 7.1
+Cycle 7 :RIGHT band slope: -30.5
+Cycle 8 :LEFT band slope: 14.5
+Cycle 8 :RIGHT band slope: -7.1
+Cycle 9 :LEFT band slope: 0.0
+Cycle 9 :RIGHT band slope: 0.0
+Cycle 10 :LEFT band slope: 71.1
+Cycle 10 :RIGHT band slope: -26.900000000000002
+Cycle 11 :LEFT band slope: 23.0
+Cycle 11 :RIGHT band slope: -57.3
+Cycle 12 :LEFT band slope: 1.5999999999999996
+Cycle 12 :RIGHT band slope: -18.9
+Cycle 13 :LEFT band slope: 14.5
+Cycle 13 :RIGHT band slope: -6.699999999999999
+Cycle 14 :LEFT band slope: 76.9
+Cycle 14 :RIGHT band slope: -0.8999999999999986
+Cycle 15 :LEFT band slope: 0.0
+Cycle 15 :RIGHT band slope: -14.600000000000001
+Cycle 16 :LEFT band slope: 16.0
+Cycle 16 :RIGHT band slope: -78.5
+Cycle 17 :LEFT band slope: 10.3
+Cycle 17 :RIGHT band slope: -10.700000000000003
+Cycle 18 :LEFT band slope: 91.80000000000001
+Cycle 18 :RIGHT band slope: -27.999999999999996
+Cycle 19 :LEFT band slope: 18.700000000000003
+Cycle 19 :RIGHT band slope: -56.9
+Cycle 20 :LEFT band slope: 0.0
+Cycle 20 :RIGHT band slope: -32.199999999999996
+Cycle 21 :LEFT band slope: 0.7000000000000028
+Cycle 21 :RIGHT band slope: 0.0
+Cycle 22 :LEFT band slope: 13.799999999999997
+Cycle 22 :RIGHT band slope: -2.1000000000000014
+Cycle 23 :LEFT band slope: 0.0
+Cycle 23 :RIGHT band slope: -4.5
+Cycle 24 :LEFT band slope: 86.3
+Cycle 24 :RIGHT band slope: -20.9
+Cycle 25 :LEFT band slope: 23.700000000000003
+Cycle 25 :RIGHT band slope: -47.900000000000006
+Cycle 26 :LEFT band slope: 0.0
+Cycle 26 :RIGHT band slope: -41.6
+Cycle 27 :LEFT band slope: 15.600000000000001
+Cycle 27 :RIGHT band slope: -14.700000000000001
+Cycle 28 :LEFT band slope: 90.6
+Cycle 28 :RIGHT band slope: -21.3
+Cycle 29 :LEFT band slope: 16.199999999999996
+Cycle 29 :RIGHT band slope: -56.5
+Cycle 30 :LEFT band slope: 0.0
+Cycle 30 :RIGHT band slope: -36.3
+Cycle 31 :LEFT band slope: 13.7
+Cycle 31 :RIGHT band slope: -8.999999999999996
+Cycle 32 :LEFT band slope: 86.5
+Cycle 32 :RIGHT band slope: -21.8
+Cycle 33 :LEFT band slope: 19.9
+Cycle 33 :RIGHT band slope: -53.2
+Cycle 34 :LEFT band slope: 0.5
+Cycle 34 :RIGHT band slope: -43.1
+Cycle 35 :LEFT band slope: 22.2
+Cycle 35 :RIGHT band slope: -8.3
+Cycle 36 :LEFT band slope: 91.6
+Cycle 36 :RIGHT band slope: -31.799999999999997
+Cycle 37 :LEFT band slope: 28.799999999999997
+Cycle 37 :RIGHT band slope: -101.5
+Cycle 38 :LEFT band slope: 14.599999999999998
+Cycle 38 :RIGHT band slope: -12.399999999999999
+Cycle 39 :LEFT band slope: 103.4
+Cycle 39 :RIGHT band slope: -26.700000000000003
+Cycle 40 :LEFT band slope: 34.7
+Cycle 40 :RIGHT band slope: -53.199999999999996
+Cycle 41 :LEFT band slope: 1.0999999999999996
+Cycle 41 :RIGHT band slope: -51.3
+Cycle 42 :LEFT band slope: 22.300000000000004
+Cycle 42 :RIGHT band slope: -7.800000000000004
+Cycle 43 :LEFT band slope: 89.7
+Cycle 43 :RIGHT band slope: -27.300000000000004
+Cycle 44 :LEFT band slope: 27.2
+Cycle 44 :RIGHT band slope: -49.300000000000004
+Cycle 45 :LEFT band slope: 0.0
+Cycle 45 :RIGHT band slope: -43.8
+Cycle 46 :LEFT band slope: 18.900000000000002
+Cycle 46 :RIGHT band slope: -16.9
+Cycle 47 :LEFT band slope: 93.4
+Cycle 47 :RIGHT band slope: -26.2
+Cycle 48 :LEFT band slope: 25.599999999999998
+Cycle 48 :RIGHT band slope: -51.9
+Cycle 49 :LEFT band slope: 0.0
+Cycle 49 :RIGHT band slope: -48.4
+Cycle 50 :LEFT band slope: 19.3
+Cycle 50 :RIGHT band slope: -12.900000000000002
+Cycle 51 :LEFT band slope: 30.1
+Cycle 51 :RIGHT band slope: 0.0
+Cycle 52 :LEFT band slope: 67.3
+Cycle 52 :RIGHT band slope: -39.6
+Cycle 53 :LEFT band slope: 36.599999999999994
+Cycle 53 :RIGHT band slope: -61.9
+Cycle 54 :LEFT band slope: 0.0
+Cycle 54 :RIGHT band slope: -44.6
+Cycle 55 :LEFT band slope: 16.9
+Cycle 55 :RIGHT band slope: -10.899999999999999
+Cycle 56 :LEFT band slope: 93.7
+Cycle 56 :RIGHT band slope: -37.199999999999996
+Cycle 57 :LEFT band slope: 33.4
+Cycle 57 :RIGHT band slope: -58.800000000000004
+Cycle 58 :LEFT band slope: 0.0
+Cycle 58 :RIGHT band slope: -37.6
+Cycle 59 :LEFT band slope: 0.0
+Cycle 59 :RIGHT band slope: 0.0
+Cycle 60 :LEFT band slope: 14.0
+Cycle 60 :RIGHT band slope: -16.6
+Cycle 61 :LEFT band slope: 106.3
+Cycle 61 :RIGHT band slope: -33.4
+Cycle 62 :LEFT band slope: 40.39999999999999
+Cycle 62 :RIGHT band slope: -57.6
+Cycle 63 :LEFT band slope: 0.0
+Cycle 63 :RIGHT band slope: -48.4
+Cycle 64 :LEFT band slope: 3.3999999999999986
+Cycle 64 :RIGHT band slope: 0.0
+Cycle 65 :LEFT band slope: 10.099999999999998
+Cycle 65 :RIGHT band slope: -14.0
+Cycle 66 :LEFT band slope: 38.300000000000004
+Cycle 66 :RIGHT band slope: -0.9000000000000004

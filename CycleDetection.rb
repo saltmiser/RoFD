@@ -1,4 +1,4 @@
-require 'DataFile.rb'
+require_relative 'DataFile'
 include DataFile
 
 module CycleDetection
@@ -78,24 +78,40 @@ module CycleDetection
       band_list = []
       current_band = nil
       last_point = nil
-      increasing_slope = true
+      increasing_slope = @data_points[1][for_column] > @data_points[0][for_column] 
+      current_point = 0
       @data_points.each { |dp| 
         if last_point == nil
+          puts "We are seeing the first point: #{current_point}"
+          puts "Our initial slope is: #{increasing_slope}"
+          puts dp.to_s(:TIME, :TORQUE)
+          current_band = Band.new(dp, for_column)
+          current_point += 1
           last_point = dp
-        elsif increasing_slope && dp[for_column] < last_point[for_column]
+          next
+        elsif increasing_slope && dp[for_column].to_f < last_point[for_column].to_f
           increasing_slope = false
+          puts "Slope is now false starting with point: #{current_point}"
+          puts dp.to_s(:TIME, :TORQUE)
+          puts "Last point was: "
+          puts last_point.to_s(:TIME, :TORQUE)
           current_band.set_end_point(last_point)
           # An open question is whether or not we need to clone the 
           # currentBand object before appending it to the bandList
           band_list << current_band
-        elsif !increasing_slope && dp[for_column] > last_point[for_column]
+          current_band = Band.new(dp, for_column)
+        elsif !increasing_slope && dp[for_column].to_f > last_point[for_column].to_f
           increasing_slope = true
+          puts "Slope is now true starting with point: #{current_point}"
+          puts dp.to_s(:TIME, :TORQUE)
+          puts "Last point was: "
+          puts last_point.to_s(:TIME, :TORQUE)
           current_band.set_end_point(last_point)
           band_list << current_band # Do we need to clone() currentBand?
-        else
-          next # There has been no slope change; continue iteration...
+          current_band = Band.new(dp, for_column)
         end
-        current_band = Band.new(dp, for_column)
+        current_point += 1
+        last_point = dp
       }
       return band_list
     end
