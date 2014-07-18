@@ -2,15 +2,24 @@ require_relative 'DataFile'
 include DataFile
 
 module CycleDetection
+  INDEPENDENT_VAR = :TIME
+
   class Band
     def initialize(startPoint, for_column)
       @start_point = startPoint
       @end_point = nil
       @slope = nil
       @column = for_column
+      @slope_len = nil
     end
     def calculate_slope()
       @slope = @end_point[@column].to_f - @start_point[@column].to_f
+    end
+    def calculate_slope_length()
+      # Note that this distance function only uses the INDEPENDENT_VAR channel
+      # in order to calculate a length.  This is not a legitimate point
+      # distance function.  
+      @slope_len = @end_point[INDEPENDENT_VAR] - @start_point[INDEPENDENT_VAR]
     end
     def set_end_point(endPoint)
       @end_point = endPoint
@@ -18,6 +27,9 @@ module CycleDetection
     end
     def get_slope()
       return @slope
+    end
+    def to_s()
+      return "From (#{@start_point.get_value(INDEPENDENT_VAR)}, #{@start_point.get_value(@column)}) to (#{@end_point.get_value(INDEPENDENT_VAR)}, #{@end_point.get_value(@column)})"
     end
   end
   class Cycle
@@ -156,7 +168,9 @@ module CycleDetection
         if cycle.get_slope(:LEFT) != nil && cycle.get_slope(:RIGHT) != nil
           cycle_no += 1
           puts "Cycle #{cycle_no} :LEFT band slope: #{cycle.get_slope(:LEFT)}"
+          puts "\t#{cycle.get_band(:LEFT)}" 
           puts "Cycle #{cycle_no} :RIGHT band slope: #{cycle.get_slope(:RIGHT)}"
+          puts "\t#{cycle.get_band(:RIGHT)}"
         end
       }
       return cycle_no
