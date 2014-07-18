@@ -1060,266 +1060,530 @@ Data Point Values:
 	Key TIME, Value 10240
 	Key TORQUE, Value -5.5
 Cycle 1 :LEFT band slope: 6.9
-	From (0, 0.0) to (10, 6.9)
+	From (0, 0.0) to (10, 6.9).
+	TIME distance is 10.0
+	TORQUE distance is 6.9.
 Cycle 1 :RIGHT band slope: -8.0
-	From (20, 6.5) to (230, -1.5)
+	From (20, 6.5) to (230, -1.5).
+	TIME distance is 210.0
+	TORQUE distance is -8.0.
 Cycle 2 :LEFT band slope: 0.0
-	From (240, -0.5) to (240, -0.5)
+	From (240, -0.5) to (240, -0.5).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 2 :RIGHT band slope: -5.2
-	From (250, -1.0) to (450, -6.2)
+	From (250, -1.0) to (450, -6.2).
+	TIME distance is 200.0
+	TORQUE distance is -5.2.
 Cycle 3 :LEFT band slope: 1.3000000000000007
-	From (460, -5.9) to (520, -4.6)
+	From (460, -5.9) to (520, -4.6).
+	TIME distance is 60.0
+	TORQUE distance is 1.3000000000000007.
 Cycle 3 :RIGHT band slope: 0.0
-	From (530, -5.2) to (540, -5.2)
+	From (530, -5.2) to (540, -5.2).
+	TIME distance is 10.0
+	TORQUE distance is 0.0.
 Cycle 4 :LEFT band slope: 0.9999999999999996
-	From (550, -4.6) to (600, -3.6)
+	From (550, -4.6) to (600, -3.6).
+	TIME distance is 50.0
+	TORQUE distance is 0.9999999999999996.
 Cycle 4 :RIGHT band slope: -1.3000000000000007
-	From (610, -4.6) to (630, -5.9)
+	From (610, -4.6) to (630, -5.9).
+	TIME distance is 20.0
+	TORQUE distance is -1.3000000000000007.
 Cycle 5 :LEFT band slope: 24.099999999999998
-	From (640, -5.7) to (840, 18.4)
+	From (640, -5.7) to (840, 18.4).
+	TIME distance is 200.0
+	TORQUE distance is 24.099999999999998.
 Cycle 5 :RIGHT band slope: -3.700000000000001
-	From (850, 17.6) to (910, 13.9)
+	From (850, 17.6) to (910, 13.9).
+	TIME distance is 60.0
+	TORQUE distance is -3.700000000000001.
 Cycle 6 :LEFT band slope: 18.7
-	From (920, 14.2) to (1030, 32.9)
+	From (920, 14.2) to (1030, 32.9).
+	TIME distance is 110.0
+	TORQUE distance is 18.7.
 Cycle 6 :RIGHT band slope: -27.5
-	From (1040, 30.3) to (1100, 2.8)
+	From (1040, 30.3) to (1100, 2.8).
+	TIME distance is 60.0
+	TORQUE distance is -27.5.
 Cycle 7 :LEFT band slope: 7.1
-	From (1110, 4.0) to (1150, 11.1)
+	From (1110, 4.0) to (1150, 11.1).
+	TIME distance is 40.0
+	TORQUE distance is 7.1.
 Cycle 7 :RIGHT band slope: -30.5
-	From (1160, 7.7) to (1230, -22.8)
+	From (1160, 7.7) to (1230, -22.8).
+	TIME distance is 70.0
+	TORQUE distance is -30.5.
 Cycle 8 :LEFT band slope: 14.5
-	From (1240, -21.2) to (1350, -6.7)
+	From (1240, -21.2) to (1350, -6.7).
+	TIME distance is 110.0
+	TORQUE distance is 14.5.
 Cycle 8 :RIGHT band slope: -7.1
-	From (1360, -8.5) to (1440, -15.6)
+	From (1360, -8.5) to (1440, -15.6).
+	TIME distance is 80.0
+	TORQUE distance is -7.1.
 Cycle 9 :LEFT band slope: 0.0
-	From (1450, -15.0) to (1450, -15.0)
+	From (1450, -15.0) to (1450, -15.0).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 9 :RIGHT band slope: 0.0
-	From (1460, -15.7) to (1470, -15.7)
+	From (1460, -15.7) to (1470, -15.7).
+	TIME distance is 10.0
+	TORQUE distance is 0.0.
 Cycle 10 :LEFT band slope: 71.1
-	From (1480, -14.2) to (1640, 56.9)
+	From (1480, -14.2) to (1640, 56.9).
+	TIME distance is 160.0
+	TORQUE distance is 71.1.
 Cycle 10 :RIGHT band slope: -26.900000000000002
-	From (1650, 51.6) to (1690, 24.7)
+	From (1650, 51.6) to (1690, 24.7).
+	TIME distance is 40.0
+	TORQUE distance is -26.900000000000002.
 Cycle 11 :LEFT band slope: 23.0
-	From (1700, 25.6) to (1760, 48.6)
+	From (1700, 25.6) to (1760, 48.6).
+	TIME distance is 60.0
+	TORQUE distance is 23.0.
 Cycle 11 :RIGHT band slope: -57.3
-	From (1770, 44.4) to (1890, -12.9)
+	From (1770, 44.4) to (1890, -12.9).
+	TIME distance is 120.0
+	TORQUE distance is -57.3.
 Cycle 12 :LEFT band slope: 1.5999999999999996
-	From (1900, -11.9) to (1910, -10.3)
+	From (1900, -11.9) to (1910, -10.3).
+	TIME distance is 10.0
+	TORQUE distance is 1.5999999999999996.
 Cycle 12 :RIGHT band slope: -18.9
-	From (1920, -13.5) to (1990, -32.4)
+	From (1920, -13.5) to (1990, -32.4).
+	TIME distance is 70.0
+	TORQUE distance is -18.9.
 Cycle 13 :LEFT band slope: 14.5
-	From (2000, -31.6) to (2070, -17.1)
+	From (2000, -31.6) to (2070, -17.1).
+	TIME distance is 70.0
+	TORQUE distance is 14.5.
 Cycle 13 :RIGHT band slope: -6.699999999999999
-	From (2080, -17.6) to (2140, -24.3)
+	From (2080, -17.6) to (2140, -24.3).
+	TIME distance is 60.0
+	TORQUE distance is -6.699999999999999.
 Cycle 14 :LEFT band slope: 76.9
-	From (2150, -24.1) to (2290, 52.8)
+	From (2150, -24.1) to (2290, 52.8).
+	TIME distance is 140.0
+	TORQUE distance is 76.9.
 Cycle 14 :RIGHT band slope: -0.8999999999999986
-	From (2300, 47.5) to (2310, 46.6)
+	From (2300, 47.5) to (2310, 46.6).
+	TIME distance is 10.0
+	TORQUE distance is -0.8999999999999986.
 Cycle 15 :LEFT band slope: 0.0
-	From (2320, 48.6) to (2320, 48.6)
+	From (2320, 48.6) to (2320, 48.6).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 15 :RIGHT band slope: -14.600000000000001
-	From (2330, 46.6) to (2370, 32.0)
+	From (2330, 46.6) to (2370, 32.0).
+	TIME distance is 40.0
+	TORQUE distance is -14.600000000000001.
 Cycle 16 :LEFT band slope: 16.0
-	From (2380, 32.4) to (2420, 48.4)
+	From (2380, 32.4) to (2420, 48.4).
+	TIME distance is 40.0
+	TORQUE distance is 16.0.
 Cycle 16 :RIGHT band slope: -78.5
-	From (2430, 46.9) to (2670, -31.6)
+	From (2430, 46.9) to (2670, -31.6).
+	TIME distance is 240.0
+	TORQUE distance is -78.5.
 Cycle 17 :LEFT band slope: 10.3
-	From (2680, -29.5) to (2750, -19.2)
+	From (2680, -29.5) to (2750, -19.2).
+	TIME distance is 70.0
+	TORQUE distance is 10.3.
 Cycle 17 :RIGHT band slope: -10.700000000000003
-	From (2760, -19.9) to (2820, -30.6)
+	From (2760, -19.9) to (2820, -30.6).
+	TIME distance is 60.0
+	TORQUE distance is -10.700000000000003.
 Cycle 18 :LEFT band slope: 91.80000000000001
-	From (2830, -30.1) to (2970, 61.7)
+	From (2830, -30.1) to (2970, 61.7).
+	TIME distance is 140.0
+	TORQUE distance is 91.80000000000001.
 Cycle 18 :RIGHT band slope: -27.999999999999996
-	From (2980, 55.8) to (3050, 27.8)
+	From (2980, 55.8) to (3050, 27.8).
+	TIME distance is 70.0
+	TORQUE distance is -27.999999999999996.
 Cycle 19 :LEFT band slope: 18.700000000000003
-	From (3060, 33.9) to (3090, 52.6)
+	From (3060, 33.9) to (3090, 52.6).
+	TIME distance is 30.0
+	TORQUE distance is 18.700000000000003.
 Cycle 19 :RIGHT band slope: -56.9
-	From (3100, 52.3) to (3220, -4.6)
+	From (3100, 52.3) to (3220, -4.6).
+	TIME distance is 120.0
+	TORQUE distance is -56.9.
 Cycle 20 :LEFT band slope: 0.0
-	From (3230, -3.3) to (3230, -3.3)
+	From (3230, -3.3) to (3230, -3.3).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 20 :RIGHT band slope: -32.199999999999996
-	From (3240, -4.6) to (3330, -36.8)
+	From (3240, -4.6) to (3330, -36.8).
+	TIME distance is 90.0
+	TORQUE distance is -32.199999999999996.
 Cycle 21 :LEFT band slope: 0.7000000000000028
-	From (3340, -35.7) to (3350, -35.0)
+	From (3340, -35.7) to (3350, -35.0).
+	TIME distance is 10.0
+	TORQUE distance is 0.7000000000000028.
 Cycle 21 :RIGHT band slope: 0.0
-	From (3360, -35.2) to (3360, -35.2)
+	From (3360, -35.2) to (3360, -35.2).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 22 :LEFT band slope: 13.799999999999997
-	From (3370, -32.4) to (3410, -18.6)
+	From (3370, -32.4) to (3410, -18.6).
+	TIME distance is 40.0
+	TORQUE distance is 13.799999999999997.
 Cycle 22 :RIGHT band slope: -2.1000000000000014
-	From (3420, -20.2) to (3430, -22.3)
+	From (3420, -20.2) to (3430, -22.3).
+	TIME distance is 10.0
+	TORQUE distance is -2.1000000000000014.
 Cycle 23 :LEFT band slope: 0.0
-	From (3440, -22.0) to (3440, -22.0)
+	From (3440, -22.0) to (3440, -22.0).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 23 :RIGHT band slope: -4.5
-	From (3450, -24.0) to (3490, -28.5)
+	From (3450, -24.0) to (3490, -28.5).
+	TIME distance is 40.0
+	TORQUE distance is -4.5.
 Cycle 24 :LEFT band slope: 86.3
-	From (3500, -27.5) to (3620, 58.8)
+	From (3500, -27.5) to (3620, 58.8).
+	TIME distance is 120.0
+	TORQUE distance is 86.3.
 Cycle 24 :RIGHT band slope: -20.9
-	From (3630, 50.3) to (3700, 29.4)
+	From (3630, 50.3) to (3700, 29.4).
+	TIME distance is 70.0
+	TORQUE distance is -20.9.
 Cycle 25 :LEFT band slope: 23.700000000000003
-	From (3710, 31.0) to (3750, 54.7)
+	From (3710, 31.0) to (3750, 54.7).
+	TIME distance is 40.0
+	TORQUE distance is 23.700000000000003.
 Cycle 25 :RIGHT band slope: -47.900000000000006
-	From (3760, 51.7) to (3880, 3.8)
+	From (3760, 51.7) to (3880, 3.8).
+	TIME distance is 120.0
+	TORQUE distance is -47.900000000000006.
 Cycle 26 :LEFT band slope: 0.0
-	From (3890, 7.1) to (3890, 7.1)
+	From (3890, 7.1) to (3890, 7.1).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 26 :RIGHT band slope: -41.6
-	From (3900, 5.1) to (4030, -36.5)
+	From (3900, 5.1) to (4030, -36.5).
+	TIME distance is 130.0
+	TORQUE distance is -41.6.
 Cycle 27 :LEFT band slope: 15.600000000000001
-	From (4040, -29.3) to (4090, -13.7)
+	From (4040, -29.3) to (4090, -13.7).
+	TIME distance is 50.0
+	TORQUE distance is 15.600000000000001.
 Cycle 27 :RIGHT band slope: -14.700000000000001
-	From (4100, -15.6) to (4170, -30.3)
+	From (4100, -15.6) to (4170, -30.3).
+	TIME distance is 70.0
+	TORQUE distance is -14.700000000000001.
 Cycle 28 :LEFT band slope: 90.6
-	From (4180, -29.5) to (4300, 61.1)
+	From (4180, -29.5) to (4300, 61.1).
+	TIME distance is 120.0
+	TORQUE distance is 90.6.
 Cycle 28 :RIGHT band slope: -21.3
-	From (4310, 53.1) to (4380, 31.8)
+	From (4310, 53.1) to (4380, 31.8).
+	TIME distance is 70.0
+	TORQUE distance is -21.3.
 Cycle 29 :LEFT band slope: 16.199999999999996
-	From (4390, 35.6) to (4420, 51.8)
+	From (4390, 35.6) to (4420, 51.8).
+	TIME distance is 30.0
+	TORQUE distance is 16.199999999999996.
 Cycle 29 :RIGHT band slope: -56.5
-	From (4430, 50.8) to (4550, -5.7)
+	From (4430, 50.8) to (4550, -5.7).
+	TIME distance is 120.0
+	TORQUE distance is -56.5.
 Cycle 30 :LEFT band slope: 0.0
-	From (4560, -3.3) to (4570, -3.3)
+	From (4560, -3.3) to (4570, -3.3).
+	TIME distance is 10.0
+	TORQUE distance is 0.0.
 Cycle 30 :RIGHT band slope: -36.3
-	From (4580, -5.7) to (4700, -42.0)
+	From (4580, -5.7) to (4700, -42.0).
+	TIME distance is 120.0
+	TORQUE distance is -36.3.
 Cycle 31 :LEFT band slope: 13.7
-	From (4710, -36.5) to (4760, -22.8)
+	From (4710, -36.5) to (4760, -22.8).
+	TIME distance is 50.0
+	TORQUE distance is 13.7.
 Cycle 31 :RIGHT band slope: -8.999999999999996
-	From (4770, -23.3) to (4820, -32.3)
+	From (4770, -23.3) to (4820, -32.3).
+	TIME distance is 50.0
+	TORQUE distance is -8.999999999999996.
 Cycle 32 :LEFT band slope: 86.5
-	From (4830, -31.6) to (4960, 54.9)
+	From (4830, -31.6) to (4960, 54.9).
+	TIME distance is 130.0
+	TORQUE distance is 86.5.
 Cycle 32 :RIGHT band slope: -21.8
-	From (4970, 52.6) to (5030, 30.8)
+	From (4970, 52.6) to (5030, 30.8).
+	TIME distance is 60.0
+	TORQUE distance is -21.8.
 Cycle 33 :LEFT band slope: 19.9
-	From (5040, 31.5) to (5090, 51.4)
+	From (5040, 31.5) to (5090, 51.4).
+	TIME distance is 50.0
+	TORQUE distance is 19.9.
 Cycle 33 :RIGHT band slope: -53.2
-	From (5100, 49.6) to (5220, -3.6)
+	From (5100, 49.6) to (5220, -3.6).
+	TIME distance is 120.0
+	TORQUE distance is -53.2.
 Cycle 34 :LEFT band slope: 0.5
-	From (5230, -0.5) to (5240, 0.0)
+	From (5230, -0.5) to (5240, 0.0).
+	TIME distance is 10.0
+	TORQUE distance is 0.5.
 Cycle 34 :RIGHT band slope: -43.1
-	From (5250, -3.0) to (5340, -46.1)
+	From (5250, -3.0) to (5340, -46.1).
+	TIME distance is 90.0
+	TORQUE distance is -43.1.
 Cycle 35 :LEFT band slope: 22.2
-	From (5350, -44.0) to (5420, -21.8)
+	From (5350, -44.0) to (5420, -21.8).
+	TIME distance is 70.0
+	TORQUE distance is 22.2.
 Cycle 35 :RIGHT band slope: -8.3
-	From (5430, -23.3) to (5470, -31.6)
+	From (5430, -23.3) to (5470, -31.6).
+	TIME distance is 40.0
+	TORQUE distance is -8.3.
 Cycle 36 :LEFT band slope: 91.6
-	From (5480, -31.1) to (5630, 60.5)
+	From (5480, -31.1) to (5630, 60.5).
+	TIME distance is 150.0
+	TORQUE distance is 91.6.
 Cycle 36 :RIGHT band slope: -31.799999999999997
-	From (5640, 57.9) to (5700, 26.1)
+	From (5640, 57.9) to (5700, 26.1).
+	TIME distance is 60.0
+	TORQUE distance is -31.799999999999997.
 Cycle 37 :LEFT band slope: 28.799999999999997
-	From (5710, 30.0) to (5750, 58.8)
+	From (5710, 30.0) to (5750, 58.8).
+	TIME distance is 40.0
+	TORQUE distance is 28.799999999999997.
 Cycle 37 :RIGHT band slope: -101.5
-	From (5760, 56.4) to (5990, -45.1)
+	From (5760, 56.4) to (5990, -45.1).
+	TIME distance is 230.0
+	TORQUE distance is -101.5.
 Cycle 38 :LEFT band slope: 14.599999999999998
-	From (6000, -42.8) to (6070, -28.2)
+	From (6000, -42.8) to (6070, -28.2).
+	TIME distance is 70.0
+	TORQUE distance is 14.599999999999998.
 Cycle 38 :RIGHT band slope: -12.399999999999999
-	From (6080, -31.1) to (6130, -43.5)
+	From (6080, -31.1) to (6130, -43.5).
+	TIME distance is 50.0
+	TORQUE distance is -12.399999999999999.
 Cycle 39 :LEFT band slope: 103.4
-	From (6140, -41.5) to (6300, 61.9)
+	From (6140, -41.5) to (6300, 61.9).
+	TIME distance is 160.0
+	TORQUE distance is 103.4.
 Cycle 39 :RIGHT band slope: -26.700000000000003
-	From (6310, 52.6) to (6350, 25.9)
+	From (6310, 52.6) to (6350, 25.9).
+	TIME distance is 40.0
+	TORQUE distance is -26.700000000000003.
 Cycle 40 :LEFT band slope: 34.7
-	From (6360, 26.2) to (6410, 60.9)
+	From (6360, 26.2) to (6410, 60.9).
+	TIME distance is 50.0
+	TORQUE distance is 34.7.
 Cycle 40 :RIGHT band slope: -53.199999999999996
-	From (6420, 58.8) to (6530, 5.6)
+	From (6420, 58.8) to (6530, 5.6).
+	TIME distance is 110.0
+	TORQUE distance is -53.199999999999996.
 Cycle 41 :LEFT band slope: 1.0999999999999996
-	From (6540, 6.0) to (6550, 7.1)
+	From (6540, 6.0) to (6550, 7.1).
+	TIME distance is 10.0
+	TORQUE distance is 1.0999999999999996.
 Cycle 41 :RIGHT band slope: -51.3
-	From (6560, 2.3) to (6660, -49.0)
+	From (6560, 2.3) to (6660, -49.0).
+	TIME distance is 100.0
+	TORQUE distance is -51.3.
 Cycle 42 :LEFT band slope: 22.300000000000004
-	From (6670, -47.7) to (6730, -25.4)
+	From (6670, -47.7) to (6730, -25.4).
+	TIME distance is 60.0
+	TORQUE distance is 22.300000000000004.
 Cycle 42 :RIGHT band slope: -7.800000000000004
-	From (6740, -26.9) to (6790, -34.7)
+	From (6740, -26.9) to (6790, -34.7).
+	TIME distance is 50.0
+	TORQUE distance is -7.800000000000004.
 Cycle 43 :LEFT band slope: 89.7
-	From (6800, -33.7) to (6940, 56.0)
+	From (6800, -33.7) to (6940, 56.0).
+	TIME distance is 140.0
+	TORQUE distance is 89.7.
 Cycle 43 :RIGHT band slope: -27.300000000000004
-	From (6950, 55.2) to (7010, 27.9)
+	From (6950, 55.2) to (7010, 27.9).
+	TIME distance is 60.0
+	TORQUE distance is -27.300000000000004.
 Cycle 44 :LEFT band slope: 27.2
-	From (7020, 28.7) to (7070, 55.9)
+	From (7020, 28.7) to (7070, 55.9).
+	TIME distance is 50.0
+	TORQUE distance is 27.2.
 Cycle 44 :RIGHT band slope: -49.300000000000004
-	From (7080, 52.1) to (7190, 2.8)
+	From (7080, 52.1) to (7190, 2.8).
+	TIME distance is 110.0
+	TORQUE distance is -49.300000000000004.
 Cycle 45 :LEFT band slope: 0.0
-	From (7200, 3.6) to (7200, 3.6)
+	From (7200, 3.6) to (7200, 3.6).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 45 :RIGHT band slope: -43.8
-	From (7210, 2.9) to (7310, -40.9)
+	From (7210, 2.9) to (7310, -40.9).
+	TIME distance is 100.0
+	TORQUE distance is -43.8.
 Cycle 46 :LEFT band slope: 18.900000000000002
-	From (7320, -40.7) to (7380, -21.8)
+	From (7320, -40.7) to (7380, -21.8).
+	TIME distance is 60.0
+	TORQUE distance is 18.900000000000002.
 Cycle 46 :RIGHT band slope: -16.9
-	From (7390, -21.9) to (7460, -38.8)
+	From (7390, -21.9) to (7460, -38.8).
+	TIME distance is 70.0
+	TORQUE distance is -16.9.
 Cycle 47 :LEFT band slope: 93.4
-	From (7470, -36.5) to (7610, 56.9)
+	From (7470, -36.5) to (7610, 56.9).
+	TIME distance is 140.0
+	TORQUE distance is 93.4.
 Cycle 47 :RIGHT band slope: -26.2
-	From (7620, 54.9) to (7680, 28.7)
+	From (7620, 54.9) to (7680, 28.7).
+	TIME distance is 60.0
+	TORQUE distance is -26.2.
 Cycle 48 :LEFT band slope: 25.599999999999998
-	From (7690, 30.8) to (7730, 56.4)
+	From (7690, 30.8) to (7730, 56.4).
+	TIME distance is 40.0
+	TORQUE distance is 25.599999999999998.
 Cycle 48 :RIGHT band slope: -51.9
-	From (7740, 55.5) to (7860, 3.6)
+	From (7740, 55.5) to (7860, 3.6).
+	TIME distance is 120.0
+	TORQUE distance is -51.9.
 Cycle 49 :LEFT band slope: 0.0
-	From (7870, 6.5) to (7870, 6.5)
+	From (7870, 6.5) to (7870, 6.5).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 49 :RIGHT band slope: -48.4
-	From (7880, 3.3) to (8000, -45.1)
+	From (7880, 3.3) to (8000, -45.1).
+	TIME distance is 120.0
+	TORQUE distance is -48.4.
 Cycle 50 :LEFT band slope: 19.3
-	From (8010, -40.5) to (8060, -21.2)
+	From (8010, -40.5) to (8060, -21.2).
+	TIME distance is 50.0
+	TORQUE distance is 19.3.
 Cycle 50 :RIGHT band slope: -12.900000000000002
-	From (8070, -22.3) to (8130, -35.2)
+	From (8070, -22.3) to (8130, -35.2).
+	TIME distance is 60.0
+	TORQUE distance is -12.900000000000002.
 Cycle 51 :LEFT band slope: 30.1
-	From (8140, -34.7) to (8210, -4.6)
+	From (8140, -34.7) to (8210, -4.6).
+	TIME distance is 70.0
+	TORQUE distance is 30.1.
 Cycle 51 :RIGHT band slope: 0.0
-	From (8220, -5.4) to (8220, -5.4)
+	From (8220, -5.4) to (8220, -5.4).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 52 :LEFT band slope: 67.3
-	From (8230, -4.1) to (8300, 63.2)
+	From (8230, -4.1) to (8300, 63.2).
+	TIME distance is 70.0
+	TORQUE distance is 67.3.
 Cycle 52 :RIGHT band slope: -39.6
-	From (8310, 60.0) to (8360, 20.4)
+	From (8310, 60.0) to (8360, 20.4).
+	TIME distance is 50.0
+	TORQUE distance is -39.6.
 Cycle 53 :LEFT band slope: 36.599999999999994
-	From (8370, 22.7) to (8420, 59.3)
+	From (8370, 22.7) to (8420, 59.3).
+	TIME distance is 50.0
+	TORQUE distance is 36.599999999999994.
 Cycle 53 :RIGHT band slope: -61.9
-	From (8430, 57.5) to (8540, -4.4)
+	From (8430, 57.5) to (8540, -4.4).
+	TIME distance is 110.0
+	TORQUE distance is -61.9.
 Cycle 54 :LEFT band slope: 0.0
-	From (8550, 0.0) to (8550, 0.0)
+	From (8550, 0.0) to (8550, 0.0).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 54 :RIGHT band slope: -44.6
-	From (8560, -1.5) to (8670, -46.1)
+	From (8560, -1.5) to (8670, -46.1).
+	TIME distance is 110.0
+	TORQUE distance is -44.6.
 Cycle 55 :LEFT band slope: 16.9
-	From (8680, -41.0) to (8730, -24.1)
+	From (8680, -41.0) to (8730, -24.1).
+	TIME distance is 50.0
+	TORQUE distance is 16.9.
 Cycle 55 :RIGHT band slope: -10.899999999999999
-	From (8740, -24.9) to (8790, -35.8)
+	From (8740, -24.9) to (8790, -35.8).
+	TIME distance is 50.0
+	TORQUE distance is -10.899999999999999.
 Cycle 56 :LEFT band slope: 93.7
-	From (8800, -35.7) to (8960, 58.0)
+	From (8800, -35.7) to (8960, 58.0).
+	TIME distance is 160.0
+	TORQUE distance is 93.7.
 Cycle 56 :RIGHT band slope: -37.199999999999996
-	From (8970, 57.8) to (9020, 20.6)
+	From (8970, 57.8) to (9020, 20.6).
+	TIME distance is 50.0
+	TORQUE distance is -37.199999999999996.
 Cycle 57 :LEFT band slope: 33.4
-	From (9030, 23.5) to (9080, 56.9)
+	From (9030, 23.5) to (9080, 56.9).
+	TIME distance is 50.0
+	TORQUE distance is 33.4.
 Cycle 57 :RIGHT band slope: -58.800000000000004
-	From (9090, 55.2) to (9210, -3.6)
+	From (9090, 55.2) to (9210, -3.6).
+	TIME distance is 120.0
+	TORQUE distance is -58.800000000000004.
 Cycle 58 :LEFT band slope: 0.0
-	From (9220, -2.0) to (9220, -2.0)
+	From (9220, -2.0) to (9220, -2.0).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 58 :RIGHT band slope: -37.6
-	From (9230, -4.4) to (9320, -42.0)
+	From (9230, -4.4) to (9320, -42.0).
+	TIME distance is 90.0
+	TORQUE distance is -37.6.
 Cycle 59 :LEFT band slope: 0.0
-	From (9330, -40.9) to (9330, -40.9)
+	From (9330, -40.9) to (9330, -40.9).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 59 :RIGHT band slope: 0.0
-	From (9340, -41.7) to (9340, -41.7)
+	From (9340, -41.7) to (9340, -41.7).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 60 :LEFT band slope: 14.0
-	From (9350, -38.9) to (9400, -24.9)
+	From (9350, -38.9) to (9400, -24.9).
+	TIME distance is 50.0
+	TORQUE distance is 14.0.
 Cycle 60 :RIGHT band slope: -16.6
-	From (9410, -26.4) to (9470, -43.0)
+	From (9410, -26.4) to (9470, -43.0).
+	TIME distance is 60.0
+	TORQUE distance is -16.6.
 Cycle 61 :LEFT band slope: 106.3
-	From (9480, -40.7) to (9650, 65.6)
+	From (9480, -40.7) to (9650, 65.6).
+	TIME distance is 170.0
+	TORQUE distance is 106.3.
 Cycle 61 :RIGHT band slope: -33.4
-	From (9660, 53.8) to (9700, 20.4)
+	From (9660, 53.8) to (9700, 20.4).
+	TIME distance is 40.0
+	TORQUE distance is -33.4.
 Cycle 62 :LEFT band slope: 40.39999999999999
-	From (9710, 26.7) to (9760, 67.1)
+	From (9710, 26.7) to (9760, 67.1).
+	TIME distance is 50.0
+	TORQUE distance is 40.39999999999999.
 Cycle 62 :RIGHT band slope: -57.6
-	From (9770, 62.7) to (9880, 5.1)
+	From (9770, 62.7) to (9880, 5.1).
+	TIME distance is 110.0
+	TORQUE distance is -57.6.
 Cycle 63 :LEFT band slope: 0.0
-	From (9890, 7.7) to (9890, 7.7)
+	From (9890, 7.7) to (9890, 7.7).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 63 :RIGHT band slope: -48.4
-	From (9900, 3.3) to (9990, -45.1)
+	From (9900, 3.3) to (9990, -45.1).
+	TIME distance is 90.0
+	TORQUE distance is -48.4.
 Cycle 64 :LEFT band slope: 3.3999999999999986
-	From (10000, -44.1) to (10010, -40.7)
+	From (10000, -44.1) to (10010, -40.7).
+	TIME distance is 10.0
+	TORQUE distance is 3.3999999999999986.
 Cycle 64 :RIGHT band slope: 0.0
-	From (10020, -41.0) to (10020, -41.0)
+	From (10020, -41.0) to (10020, -41.0).
+	TIME distance is 0.0
+	TORQUE distance is 0.0.
 Cycle 65 :LEFT band slope: 10.099999999999998
-	From (10030, -36.8) to (10070, -26.7)
+	From (10030, -36.8) to (10070, -26.7).
+	TIME distance is 40.0
+	TORQUE distance is 10.099999999999998.
 Cycle 65 :RIGHT band slope: -14.0
-	From (10080, -29.0) to (10130, -43.0)
+	From (10080, -29.0) to (10130, -43.0).
+	TIME distance is 50.0
+	TORQUE distance is -14.0.
 Cycle 66 :LEFT band slope: 38.300000000000004
-	From (10140, -42.7) to (10220, -4.4)
+	From (10140, -42.7) to (10220, -4.4).
+	TIME distance is 80.0
+	TORQUE distance is 38.300000000000004.
 Cycle 66 :RIGHT band slope: -0.9000000000000004
-	From (10230, -4.6) to (10240, -5.5)
+	From (10230, -4.6) to (10240, -5.5).
+	TIME distance is 10.0
+	TORQUE distance is -0.9000000000000004.

@@ -6,30 +6,39 @@ module CycleDetection
 
   class Band
     def initialize(startPoint, for_column)
-      @start_point = startPoint
-      @end_point = nil
-      @slope = nil
-      @column = for_column
-      @slope_len = nil
+      @start_point = startPoint; @column = for_column
+      # Null initializations
+      @end_point = nil; @d_len = nil; @i_len = nil
     end
     def calculate_slope()
       @slope = @end_point[@column].to_f - @start_point[@column].to_f
     end
-    def calculate_slope_length()
+    def calculate_independent_var_length()
       # Note that this distance function only uses the INDEPENDENT_VAR channel
       # in order to calculate a length.  This is not a legitimate point
       # distance function.  
-      @slope_len = @end_point[INDEPENDENT_VAR] - @start_point[INDEPENDENT_VAR]
+      @i_len = @end_point[INDEPENDENT_VAR].to_f - @start_point[INDEPENDENT_VAR].to_f
+    end
+    def calculate_dependent_var_length()
+      @d_len = @end_point[@column].to_f - @start_point[@column].to_f
     end
     def set_end_point(endPoint)
       @end_point = endPoint
-      calculate_slope()
+      self.calculate_slope()
+      self.calculate_independent_var_length()
+      self.calculate_dependent_var_length()
     end
     def get_slope()
       return @slope
     end
+    def get_coordinates_s()
+      return "From (#{@start_point.get_value(INDEPENDENT_VAR)}, #{@start_point.get_value(@column)}) to (#{@end_point.get_value(INDEPENDENT_VAR)}, #{@end_point.get_value(@column)})."
+    end
+    def get_distances_s
+      return "\t#{INDEPENDENT_VAR} distance is #{@i_len}\n\t#{@column} distance is #{@d_len}."
+    end
     def to_s()
-      return "From (#{@start_point.get_value(INDEPENDENT_VAR)}, #{@start_point.get_value(@column)}) to (#{@end_point.get_value(INDEPENDENT_VAR)}, #{@end_point.get_value(@column)})"
+      return get_coordinates_s + "\n" + get_distances_s
     end
   end
   class Cycle
