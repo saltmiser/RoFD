@@ -17,6 +17,7 @@ def main()
   $cycletron.puts_slope_list
   $rofd = RofdPrinter.new($cycletron)
   puts $rofd.to_s 
+  $rofd.write_bands_to_file('./data/')
 end
 
 main()

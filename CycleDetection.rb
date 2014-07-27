@@ -7,6 +7,7 @@ module CycleDetection
   class Band
     def initialize(startPoint, for_column)
       @start_point = startPoint; @column = for_column
+      @containing_points = [] # The full collection of points contained within the band.  
       # Null initializations
       @end_point = nil; @d_len = nil; @i_len = nil
     end
@@ -45,6 +46,16 @@ module CycleDetection
     end
     def to_s()
       return get_coordinates_s + "\n" + get_distances_s
+    end
+    def append_point(data_point)
+      @containing_points << data_point
+    end 
+    def write_to_file(file_name)
+      output_file = File.new(file_name, "w")
+      @containing_points.each { |point|
+        output_file.syswrite("#{point[:TIME]}\t#{point[:TORQUE]}\n")
+      }
+      output_file.close
     end
   end
   class Cycle
@@ -145,6 +156,7 @@ module CycleDetection
           current_band = Band.new(dp, for_column)
         end
         current_point += 1
+        current_band.append_point(dp)
         last_point = dp
       }
       return band_list
