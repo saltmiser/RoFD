@@ -58,6 +58,7 @@ module DataFile
   # Upon object instantiation, the referenced data file is parsed and
   # the DataPointFromFile objects are instantiated.   
   class DataFileOfPoints
+    include Enumerable
     def initialize(directory, file_name, column_config_hash)
       @file_path = directory + file_name
       @data_points = []
@@ -75,6 +76,12 @@ module DataFile
           end
         end
       end
+    end
+    def <<(val)
+      @data_points << val
+    end
+    def each(&block)
+      @data_points.each(&block)
     end
     def count()
       return @data_points.count()

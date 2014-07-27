@@ -37,6 +37,12 @@ module CycleDetection
     def get_distances_s
       return "\t#{INDEPENDENT_VAR} distance is #{@i_len}\n\t#{@column} distance is #{@d_len}."
     end
+    def get_start_point(dimension)
+      return @start_point[dimension]
+    end
+    def get_end_point(dimension)
+      return @end_point[dimension]
+    end
     def to_s()
       return get_coordinates_s + "\n" + get_distances_s
     end
@@ -90,10 +96,17 @@ module CycleDetection
     end
   end
   class CycleList
+    include Enumerable
     def initialize(directory, file_name, column_config, inspect_column)
       @data_points = DataFileOfPoints.new(directory, file_name, column_config)
       self.initialize_cycle_list(inspect_column)
       self.find_average_slopes()
+    end
+    def <<(val)
+      @cycle_list << val
+    end
+    def each(&block)
+      @cycle_list.each(&block)
     end
     def initialize_band_list(for_column)
       band_list = []
