@@ -47,6 +47,9 @@ module CycleDetection
     def count
       return @containing_points.count
     end
+    def get_points
+      return @containing_points
+    end
     def to_s()
       return get_coordinates_s + "\n" + get_distances_s
     end
@@ -109,7 +112,33 @@ module CycleDetection
       end
     end
     def get_slope_around_percentage(band_designator, percentage, filter)
+      percentage_subset = nil
+      case band_designator
+      when :LEFT
+        percentage_subset = Array.new(@left_band.get_points)
+      when :RIGHT
+        percentage_subset = Array.new(@right_band.get_points)
+      else
+        puts "Invalid band_designator #{band_designator}"
+      end
       
+      num_points = percentage_subset.count
+      take_away = (num_points * percentage).round(0).to_i
+      case filter
+      when :CENTRALIZE
+        remove_from_left_side = true # Else we take from right side
+        while take_away > 0 do
+          if remove_from_left_side
+            percentage_subset.delete_at(0)
+          else 
+            percentage_subset.delete_at(percentage_subset.count - 1)
+          end
+          remove_from_left_side = !remove_from_left_side
+          take_away -= 1
+        end
+      else
+        puts "Invalid filter #{filter}"
+      end
     end
   end
   class CycleList
@@ -133,19 +162,19 @@ module CycleDetection
       current_point = 0
       @data_points.each { |dp| 
         if last_point == nil
-          puts "We are seeing the first point: #{current_point}"
-          puts "Our initial slope is: #{increasing_slope}"
-          puts dp.to_s(:TIME, :TORQUE)
+          #puts "We are seeing the first point: #{current_point}"
+          #puts "Our initial slope is: #{increasing_slope}"
+          #puts dp.to_s(:TIME, :TORQUE)
           current_band = Band.new(dp, for_column)
           current_point += 1
           last_point = dp
           next
         elsif increasing_slope && dp[for_column].to_f < last_point[for_column].to_f
           increasing_slope = false
-          puts "Slope is now false starting with point: #{current_point}"
-          puts dp.to_s(:TIME, :TORQUE)
-          puts "Last point was: "
-          puts last_point.to_s(:TIME, :TORQUE)
+          #puts "Slope is now false starting with point: #{current_point}"
+          #puts dp.to_s(:TIME, :TORQUE)
+          #puts "Last point was: "
+          #puts last_point.to_s(:TIME, :TORQUE)
           current_band.set_end_point(last_point)
           # An open question is whether or not we need to clone the 
           # currentBand object before appending it to the bandList
@@ -153,10 +182,10 @@ module CycleDetection
           current_band = Band.new(dp, for_column)
         elsif !increasing_slope && dp[for_column].to_f > last_point[for_column].to_f
           increasing_slope = true
-          puts "Slope is now true starting with point: #{current_point}"
-          puts dp.to_s(:TIME, :TORQUE)
-          puts "Last point was: "
-          puts last_point.to_s(:TIME, :TORQUE)
+          #puts "Slope is now true starting with point: #{current_point}"
+          #puts dp.to_s(:TIME, :TORQUE)
+          #puts "Last point was: "
+          #puts last_point.to_s(:TIME, :TORQUE)
           current_band.set_end_point(last_point)
           band_list << current_band # Do we need to clone() currentBand?
           current_band = Band.new(dp, for_column)

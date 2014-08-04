@@ -14,10 +14,10 @@ def main()
   config = DEMO_COLUMN_CONFIG_HASHES[:ONLY_ONE_SO_FAR]
   $data = DataFileOfPoints.new(datadir, justOneFile, config)
   $cycletron = CycleList.new(datadir, justOneFile, config, :TORQUE)
-  $cycletron.puts_slope_list
-  $rofd = RofdPrinter.new($cycletron)
+  #$cycletron.puts_slope_list
+  $rofd = RofdForCycleList.new($cycletron)
   puts $rofd.to_s 
-  $rofd.write_bands_to_file('./data/')
+  #$rofd.write_bands_to_file('./data/')
 end
 
 main()
