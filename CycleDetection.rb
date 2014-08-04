@@ -44,6 +44,9 @@ module CycleDetection
     def get_end_point(dimension)
       return @end_point[dimension]
     end
+    def count
+      return @containing_points.count
+    end
     def to_s()
       return get_coordinates_s + "\n" + get_distances_s
     end
@@ -104,6 +107,9 @@ module CycleDetection
       else
         puts "Invalid band_Designator #{band_designator}"
       end
+    end
+    def get_slope_around_percentage(band_designator, percentage, filter)
+      
     end
   end
   class CycleList
