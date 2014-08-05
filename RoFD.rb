@@ -1,27 +1,48 @@
 require_relative 'CycleDetection'
 
 module RoFD
+  class Repetition
+    def initialize
+      @cycle_list = []
+    end
+    def <<(val)
+      @cycle_list << val
+    end
+    def each(&block)
+      @cycle_list.each(&block)
+    end
+    def [](index)
+      return @cycle_list(index)
+    end
+  end
+
+
   class RofdForCycleList
-    HEADER_CONST = "Repetition | Rep Start | Time to Peak |  Force  |  RoFD (dF/dT)\n"
+    HEADER_CONST = "Repetition | Rep Start | Rep End | Rep Len |  Force  |  RoFD (dF/dT)\n"
     def initialize(cycle_list, sanitation_threshold)
       @cycle_list = cycle_list
       sanitize_cycle_list(sanitation_threshold)
-      build_console_readable_cycle_list_report_s
+      build_repetition_list
+      build_console_readable_cycle_list_report_s(:LEFT)
     end
-    def build_console_readable_cycle_list_report_s
+    def build_repetition_list
+      
+    end
+
+    # Warning!  This method assumes millisecond values should be handled as integers!
+    def build_console_readable_cycle_list_report_s(band_designator)
       iter_count = 0
       @output_s = HEADER_CONST
       begin
         @cycle_list.each { |cycle|
           iter_count += 1
-          left_band_duration = cycle.get_band(:LEFT).get_end_point(:TIME).to_f - cycle.get_band(:LEFT).get_start_point(:TIME).to_f
-          left_band_duration = left_band_duration.to_i
-          left_band_slope = cycle.get_band(:LEFT).get_slope().to_f.round(3)
-          left_band_time_start = cycle.get_band(:LEFT).get_start_point(:TIME)
-          left_band_time_start = left_band_time_start.to_i
-          rofd = (left_band_slope / left_band_duration.to_f).round(3)
-          @output_s += "\t#{iter_count}\t#{left_band_time_start}\t\t#{left_band_duration}"
-          @output_s += "\t#{left_band_slope}\t\t#{rofd}\n"
+          band_time_start = cycle.get_band(band_designator).get_start_point(:TIME).to_i
+          band_time_end = cycle.get_band(band_designator).get_end_point(:TIME).to_i
+          band_duration = band_time_end - band_time_start
+          band_slope = cycle.get_band(band_designator).get_slope().round(3)
+          rofd = (band_slope / band_duration.to_f).round(3)
+          @output_s += "\t#{iter_count}\t#{band_time_start}\t#{band_time_end}\t#{band_duration}"
+          @output_s += "\t#{band_slope}\t\t#{rofd}\n"
         }
       rescue
         return

@@ -15,7 +15,7 @@ def main()
   $data = DataFileOfPoints.new(datadir, justOneFile, config)
   $cycletron = CycleList.new(datadir, justOneFile, config, :TORQUE)
   #$cycletron.puts_slope_list
-  $rofd = RofdForCycleList.new($cycletron)
+  $rofd = RofdForCycleList.new($cycletron, nil)
   puts $rofd.to_s 
   #$rofd.write_bands_to_file('./data/')
 end
