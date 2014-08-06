@@ -244,6 +244,12 @@ module CycleDetection
       }
       return cycle_no
     end
+    def detect_minimum_sane_slope
+      1
+    end
+    def sanitize_bands(minimum_required_slope)
+     1  
+    end
   end
 end
 

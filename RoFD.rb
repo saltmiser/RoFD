@@ -1,7 +1,10 @@
-require_relative 'CycleDetection'
+#require_relative 'CycleDetection'
 
 module RoFD
+  HEADER_CONST = "Repetition | Rep Start | Rep End | Rep Len |  Force  |  RoFD (dF/dT)\n"
+
   class Repetition
+    include Enumerable
     def initialize
       @cycle_list = []
     end
@@ -11,14 +14,13 @@ module RoFD
     def each(&block)
       @cycle_list.each(&block)
     end
-    def [](index)
-      return @cycle_list(index)
+    def [](cycle_index)
+      return @cycle_list[cycle_index]
     end
   end
 
-
   class RofdForCycleList
-    HEADER_CONST = "Repetition | Rep Start | Rep End | Rep Len |  Force  |  RoFD (dF/dT)\n"
+
     def initialize(cycle_list, sanitation_threshold)
       @cycle_list = cycle_list
       sanitize_cycle_list(sanitation_threshold)
@@ -26,7 +28,7 @@ module RoFD
       build_console_readable_cycle_list_report_s(:LEFT)
     end
     def build_repetition_list
-      
+      1
     end
 
     # Warning!  This method assumes millisecond values should be handled as integers!
@@ -51,20 +53,22 @@ module RoFD
     def to_s()
       return @output_s
     end
-  end
-  def write_bands_to_file(write_directory) 
-    cycle_count = 0
-    begin
-      @cycle_list.each { |cycle|
-        cycle_count += 1
-        cycle.get_band(:LEFT).write_to_file(write_directory + "#{cycle_count}_RISING.txt")
-        cycle.get_band(:RIGHT).write_to_file(write_directory + "#{cycle_count}_FALLING.txt")
-      }
-    rescue
-      return cycle_count
+  
+    def write_bands_to_file(write_directory) 
+      cycle_count = 0
+      begin
+        @cycle_list.each { |cycle|
+          cycle_count += 1
+          cycle.get_band(:LEFT).write_to_file(write_directory + "#{cycle_count}_RISING.txt")
+          cycle.get_band(:RIGHT).write_to_file(write_directory + "#{cycle_count}_FALLING.txt")
+        }
+      rescue
+        return cycle_count
+      end
+    end
+    def sanitize_cycle_list(threshold)
+      1
     end
   end
-  def sanitize_cycle_list(threshold)
-
-  end
 end
+
